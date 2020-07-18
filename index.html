@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Thermostat</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <link href="public/style.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="src/interface.js"></script>
+    <script src="src/thermostat.js"></script>
+  </head>
+  <body>
+
+    <h1><strong>Thermostat</strong></h1>
+    <h4>In your home</h4>
+    <h5><span id="temperature" ></span>°C </h5>
+
+    <div>
+      <button id="temperature-up">Temp Up</button>
+      <button id="temperature-down">Temp Down</button>
+      <button id="temperature-reset">Reset</button>
+      <button id="powersaving-on">Power Saving Mode On</button>
+      <button id="powersaving-off">Power Saving Mode Off</button>
+    </div>
+
+    <p>
+      Power Saving Mode Status <span id="power-saving-status">on</span>
+    </p>
+
+    Temperature in chosen city:
+
+    <h4><select id="current-city"></h4>
+      <div>
+        <option value="london">London</option>
+        <option value="gothenburg">Gothenburg</option>
+        <option value="paris">Paris</option>
+        <option value="new york">New York</option>
+      </div>
+    </select>
+
+    <div>
+      <span id="current-temperature"></span>°C
+    </div>
+  </body>
+</html>

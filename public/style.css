@@ -1,0 +1,93 @@
+body {
+   color: black;
+   Font-size: 30px;
+   font-family: 'Montserrat', sans-serif;
+   background-color: #eee8da;
+   text-align: center;
+}
+
+  div {
+    height: 60px;
+    padding: 20px;
+}
+
+  #temperature {
+    color: white;
+    font-size: 90px;
+  }
+
+#temperature-up {
+  align: center;
+  font-size: 18px;
+  color: white;
+  background: #00a194;
+  border-radius: 50px 50px;
+  padding: 10px;
+  width: 250px;
+  height: 40px;
+}
+
+#temperature-down {
+  font-size:18px;
+  color: white;
+  background: #00a194;
+  border-radius: 50px 50px;
+  padding: 10px;
+  width: 250px;
+  height: 40px;
+}
+
+#temperature-reset {
+  font-size: 18px;
+  color: white;
+  background: #00a194;
+  border-radius: 50px 50px;
+  padding: 10px;
+  width: 250px;
+  height: 40px;
+}
+
+#powersaving-on {
+  font-size: 18px;
+  color: white;
+  background: #00a194;
+  border-radius: 50px 50px;
+  padding: 10px;
+  width: 250px;
+  height: 40px;
+}
+
+#powersaving-off {
+  font-size: 18px;
+  color: white;
+  background: #00a194;
+  border-radius: 50px 50px;
+  padding: 10px;
+  width: 250px;
+  height: 40px;
+}
+
+#current-city {
+  font-size: 18px;
+  color: white;
+  background: #00a194;
+  border-radius: 50px 50px;
+  padding: 10px;
+  width: 250px;
+  height: 40px;
+}
+
+#power-saving-status {
+  font-size: 18px;
+  color: white;
+  background: #00a194;
+  border-radius: 50px 50px;
+  padding: 10px;
+  width: 250px;
+  height: 40px;
+}
+
+#current-temperature {
+  color: white;
+  font-size: 90px;
+}
