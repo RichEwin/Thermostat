@@ -1,6 +1,6 @@
 ## Thermostat
 
-A Thermostat that allows you to change the temperature in your own home. It also provides the temperature in other cities using a Weather API.
+Digital Thermostat application that allows you to view the temperature in your home. It also provides the temperature in other cities using a Weather API.
 
 <br>
 <p align="center">
